@@ -1,0 +1,111 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="60%" stop-color="#0B1324"/>
+      <stop offset="100%" stop-color="#05080F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="65%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="#ffffff" stroke-width="1" stroke-opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Left Content -->
+  <!-- Logo pill -->
+  <g transform="translate(90, 85)">
+    <rect width="44" height="44" rx="12" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="2"/>
+    <path d="M14 22h16M14 16v12M30 16v12M18 19v6M26 19v6" stroke="#34D399" stroke-width="3" stroke-linecap="round"/>
+    <text x="60" y="31" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="28" letter-spacing="1">HEALTHMATE</text>
+  </g>
+
+  <!-- Tagline / Subkicker -->
+  <g transform="translate(90, 195)">
+    <text x="0" y="0" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="19" letter-spacing="0.5">AI 맞춤 헬스 코치 · 스마트 통합 관리</text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(90, 260)">
+    <text x="0" y="0" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="44" letter-spacing="-1">운동, 이제 AI와 함께</text>
+    <text x="0" y="60" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="44" letter-spacing="-1">더 스마트하게.</text>
+  </g>
+
+  <!-- Description -->
+  <g transform="translate(90, 400)">
+    <text x="0" y="0" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="20">운동의 시작부터 성장까지! 초보자부터 숙련자까지</text>
+    <text x="0" y="32" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="20">모두를 위한 나만의 AI 헬스 파트너</text>
+  </g>
+
+  <!-- Feature Tags -->
+  <g transform="translate(90, 495)">
+    <rect x="0" y="0" width="160" height="42" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <text x="80" y="26" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="15" font-weight="600">Gemini AI 코칭</text>
+
+    <rect x="175" y="0" width="160" height="42" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <text x="255" y="26" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="15" font-weight="600">스마트 운동일지</text>
+
+    <rect x="350" y="0" width="160" height="42" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <text x="430" y="26" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="15" font-weight="600">비전 식단 분석</text>
+  </g>
+
+  <!-- Right Phone Mockup -->
+  <g transform="translate(800, 75)">
+    <!-- Phone Body -->
+    <rect width="310" height="520" rx="46" fill="#030712" stroke="#1F2937" stroke-width="6"/>
+    <!-- Phone Screen -->
+    <rect x="12" y="12" width="286" height="496" rx="36" fill="#090E1A" stroke="#111827" stroke-width="2"/>
+    
+    <!-- Notch -->
+    <rect x="105" y="22" width="100" height="18" rx="9" fill="#000000"/>
+
+    <!-- Screen Content: Header -->
+    <text x="32" y="70" fill="#94A3B8" font-size="12" font-family="sans-serif">초급자 레벨 · 5일 연속 출석</text>
+    <text x="32" y="92" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">반갑습니다! 최윤석님</text>
+
+    <!-- Routine Card -->
+    <rect x="28" y="112" width="254" height="110" rx="16" fill="#111827" stroke="#10B981" stroke-width="1.5"/>
+    <text x="44" y="136" fill="#34D399" font-size="11" font-weight="700" font-family="sans-serif">AI 오늘의 추천 프로그램</text>
+    <text x="44" y="160" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">가슴 &amp; 삼두 머신 기초</text>
+    <text x="44" y="180" fill="#94A3B8" font-size="11" font-family="sans-serif">4개 종목 · 16세트 · 45분 코스</text>
+    <rect x="195" y="188" width="72" height="24" rx="6" fill="#10B981"/>
+    <text x="231" y="204" text-anchor="middle" fill="#022c22" font-size="10" font-weight="800" font-family="sans-serif">운동 시작</text>
+
+    <!-- Timer / Exercise Card -->
+    <rect x="28" y="234" width="254" height="85" rx="16" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="44" y="258" fill="#94A3B8" font-size="11" font-family="sans-serif">세트 간 권장 휴식 시간</text>
+    <text x="44" y="292" fill="#34D399" font-size="28" font-weight="800" font-family="monospace">01:14</text>
+    <rect x="180" y="268" width="86" height="28" rx="8" fill="#1E293B"/>
+    <text x="223" y="286" text-anchor="middle" fill="#34D399" font-size="11" font-weight="700" font-family="sans-serif">+90초 추가</text>
+
+    <!-- AI Coaching bubble -->
+    <rect x="28" y="330" width="254" height="75" rx="16" fill="#064E3B" fill-opacity="0.3" stroke="#059669" stroke-width="1"/>
+    <text x="44" y="352" fill="#34D399" font-size="11" font-weight="700" font-family="sans-serif">Gemini 실시간 코치 팁</text>
+    <text x="44" y="372" fill="#D1FAE5" font-size="10" font-family="sans-serif">손목 꺾임 방지를 위해 불독 그립으로</text>
+    <text x="44" y="388" fill="#D1FAE5" font-size="10" font-family="sans-serif">바벨을 얹고 밀어내세요.</text>
+
+    <!-- Bottom Nav Indicator -->
+    <rect x="110" y="492" width="90" height="4" rx="2" fill="#4B5563"/>
+  </g>
+</svg>

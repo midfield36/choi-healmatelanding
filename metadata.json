@@ -1,0 +1,6 @@
+{
+  "name": "헬스메이트 (HealthMate) 공식 랜딩페이지",
+  "description": "운동의 시작부터 성장까지, 나만의 AI 헬스 파트너 HealthMate 공식 소개 랜딩페이지. AI 맞춤 루틴, 세트별 운동일지, 비전 식단 분석, 신체 변화 그래프를 한곳에서 경험해 보세요.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
